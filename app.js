@@ -35,7 +35,7 @@ io.on('connection',function(socket){
 	socket.on('trigger', function(data)
 	{
 		console.log("data: " + data);
-		socket.emit("location_resp", "Location Response 12345");
+		socket.emit("location_resp", data);
 	});
 
 
