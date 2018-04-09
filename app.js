@@ -50,4 +50,5 @@ io.on('connection',function(socket){
     console.log("user disconnected");
   })
 });
-http.listen(80);
+
+module.exports = app;
